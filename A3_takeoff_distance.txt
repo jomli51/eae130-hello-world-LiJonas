@@ -1,0 +1,12 @@
+
+
+
+
+#TO distance
+W_to = 66400
+# T_to = 44000 # Using F-18 e/f engines, 13000 per engine
+F_to = 0.8*3*W_to
+W_T_to = 0.328
+s_TO = (k_s**2/32.2) * (W_to/s_ref)/(rho_SL*C_L_max_takeoff*(W_T_to+(F_to/W_to)))
+
+
